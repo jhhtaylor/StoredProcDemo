@@ -1,0 +1,11 @@
+CREATE DATABASE UserDB;
+GO
+
+USE UserDB;
+GO
+
+CREATE TABLE Users (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    UserName NVARCHAR(50),
+    Email NVARCHAR(100)
+);

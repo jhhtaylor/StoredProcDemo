@@ -1,0 +1,7 @@
+# .NET build artifacts
+bin/
+obj/
+
+# NuGet packages
+.nuget/
+*.nupkg
